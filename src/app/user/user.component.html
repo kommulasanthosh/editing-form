@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <h1>Appointment Form</h1>
+   
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="uname" [(ngModel)] = "userForm.username" class="form-control" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label>e-mail</label>
+            <input type="text"  name="email" [(ngModel)] = "userForm.email" class="form-control" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label>Phone Number</label>
+            <input type="tel" name="phone" [(ngModel)] = "userForm.mobile" class="form-control" autocomplete="off">
+        </div>
+        <div class="form-group">
+            <label>Gender</label><br>
+            <select name="gender" [(ngModel)] = "userForm.gender">
+                <option selected>Please Select The Gender</option>
+                <option  value="M">Male</option>
+                <option  value="F">Female</option>
+            </select>
+        </div>
+   
+        <div class="form-check mb-3">
+            
+<div>
+            <button class="btn btn-primary mr-5" type="submit" (click)="submit()">Submit</button>
+            <button class="btn btn-primary" type="submit" (click)="close()">Close</button>
+</div>
+        </div>
+ 
+</div>

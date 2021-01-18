@@ -1,0 +1,60 @@
+{
+    "result": [
+        {
+            "userusername": "Chinnu",
+            "gender": "M",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "neelu",
+            "gender": "F",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "pragnya",
+            "gender": "F",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "pooja",
+            "gender": "F",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "ganesh",
+            "gender": "M",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "rakesh",
+            "gender": "M",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        },
+        {
+            "username": "Samantha",
+            "gender": "F",
+            
+            "mobile": "9999999",
+            "email": "chinnu@gmail.com"
+    
+        }
+    ]
+}

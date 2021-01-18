@@ -1,0 +1,40 @@
+<div  class="row mt-5 ml-5" >
+    <table>
+        <thead>
+            <tr>
+                <th  class="col-3">Name</th>
+                <th  class="col-3">Gender</th>
+                <th  class="col-3">email</th>
+                <th  class="col-3">Mobile</th>
+                <th  class="col-3"></th>
+                <th  class="col-3"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let data of tableData; let i = index">
+                <td  class="col-3">{{data.username}}</td>
+                <td  class="col-3">{{data.gender}}</td>
+                <td  class="col-3">{{data.email}}</td>
+                <td  class="col-3">{{data.mobile}}</td>
+                <td  class="col-3">
+                    <button (click)="edit(data,i)">Edit</button>
+                </td>
+                <td  class="col-3">
+                    <button (click)="delete(i)">Delete</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+   
+</div>
+<div class="row">
+    <div class="col-2">
+    <button (click)="add()">Add</button>
+</div>
+<div class="col-2">
+   
+</div>
+<div class="col-2">
+    
+</div>
+</div>
